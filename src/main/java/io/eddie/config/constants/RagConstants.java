@@ -15,6 +15,14 @@ public abstract class RagConstants {
             + "반드시 아래 JSON 형식으로만 출력하세요. 다른 말은 쓰지 마세요.\n"
             + "{\"faithfulness\": 5, \"relevance\": 5, \"correctness\": 5, \"reason\": \"한 문장 평가 이유\"}";
 
+    public static final String[] SENTENCES = {
+            "체크카드를 분실하면 앱에서 즉시 분실 신고를 할 수 있습니다.",
+            "정기예금을 중도해지하면 약정금리보다 낮은 이율이 적용됩니다.",
+            "해외송금 수수료는 앱 이용 시 건당 5,000원입니다.",
+            "신용대출 중도상환수수료율은 0.6%입니다.",
+            "오늘 점심 메뉴는 김치찌개입니다."
+    };
+
     public static final String SEPARATOR = "CU_";
 
 }
