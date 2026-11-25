@@ -9,7 +9,7 @@ import java.util.List;
 public interface RagClient {
 
     List<VectorResult> retrieve(String query, int topK);
-    List<VectorResult> answer(String query, List<VectorResult> context);
+    String answer(String query, List<VectorResult> context);
 
     default String buildUserPrompt(String query, List<VectorResult> contexts) {
         StringBuilder sb = new StringBuilder("[참고 문서]\n");
